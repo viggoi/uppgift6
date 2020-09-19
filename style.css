@@ -1,0 +1,56 @@
+/* nice table styling */
+.nice-table {
+	border-collapse: collapse;
+}
+
+.nice-table th, .nice-table td {
+	border: 1px solid black;
+	width: 150px
+}
+
+.nice-table td:nth-child(2), .nice-table td:nth-child(3) {
+	text-align: center;
+}
+
+.nice-table td:nth-child(4) {
+	text-align: right;
+}
+
+.nice-table tr:nth-child(even) {
+	background-color: yellow;
+}
+
+.nice-table tr:nth-child(2n+3) {
+	background-color: red;
+	color: white;
+}
+
+/* color table styling */
+.color-table {
+	width: 180px;
+	height: 140px;
+	border-collapse: collapse;
+}
+
+.color-table tr, .color-table td {
+	border: 1px solid black;
+}
+
+td.blue {
+	background-color: blue;
+}
+
+td.red {
+	background-color: red;
+}
+
+td.yellow {
+	background-color: yellow;
+}
+
+td.black {
+	background-color: black;
+}
+td.green {
+	background-color: green;
+}
